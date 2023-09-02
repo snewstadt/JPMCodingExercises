@@ -1,5 +1,7 @@
 package net.newstadt.jpm.ce27;
 
+import java.util.Scanner;
+
 /*
 Write a method named printSquareStar with one parameter of type int named number. 
 
@@ -26,7 +28,8 @@ public class DiagonalStar {
 
 	public static void main(String[] args) {
 		printSquareStar(10);
-
+		printSquareStar(Integer.parseInt(getUserInput("How big would you like your star? ")));
+		
 	}
 	
 	public static void printSquareStar(int number) {
@@ -48,9 +51,14 @@ public class DiagonalStar {
 			} 
 			System.out.println();
 		}
+			
+	}
+	
+	public static String getUserInput(String message) {
+		Scanner scanner = new Scanner(System.in);
 		
-		
-		
+		System.out.println(message);
+		return scanner.nextLine();
 	}
 
 }
