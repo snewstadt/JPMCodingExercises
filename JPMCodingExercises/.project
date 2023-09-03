@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/net/newstadt/jpm/ce32/CE32_Wall_UML.pdf</name>
+			<type>1</type>
+			<location>C:/javarun/UMLDiagrams/JPM-ChallengesAndCEs/CE32_Wall_UML.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
